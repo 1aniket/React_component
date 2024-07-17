@@ -1,0 +1,27 @@
+{
+  "name": "react_components",
+  "version": "1.0.0",
+  "description": "It contains react component",
+  "main": "app.js",
+  "scripts": {
+    "test": "npx parcel index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/1aniket/React_component.git"
+  },
+  "author": "Aniket Bhogawar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/1aniket/React_component/issues"
+  },
+  "homepage": "https://github.com/1aniket/React_component#readme",
+  "devDependencies": {
+    "parcel": "^2.12.0",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  }
+}
