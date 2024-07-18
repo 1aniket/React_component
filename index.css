@@ -4,13 +4,21 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    
 }
 body , html
 {
     height: 100vh;
     width: 100vw;
 
+
 }
+body
+{
+    overflow-x: hidden;
+}
+
+/*BUTTON COMPONENT DESIGN*/
 .Btn
 {
     height: 100vh;
@@ -19,7 +27,15 @@ body , html
     align-items: center;
     justify-content: center;
     background-color: rgb(248, 243, 243);
+    overflow: hidden;
     
+}
+
+.Btn > .text
+{
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 
 .Btn > button
@@ -32,4 +48,52 @@ body , html
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: x-large;
     color: antiquewhite;
+}
+
+/*SEARCH BAR COMPONENT DESIGN*/
+.Searchbar
+{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center ;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: relative;
+    background-color: rgb(31, 32, 43);
+    color: white !important;
+}
+.Searchbar > input
+{
+    border: none;
+    color: white;
+    height: 3rem;
+    text-align: center;
+    margin-bottom: 3rem;
+    outline: none;
+    border-radius: 10px;
+    font-size: larger;
+    background-color: rgba(32, 103, 255, 0.208);
+  
+}
+
+.Searchbar > .text
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.Searchbar > .learnings
+{
+    position: absolute;
+    bottom: 10%;
+    
+}
+.Searchbar a
+{
+    color: red !important;
+    text-decoration: none;
 }
